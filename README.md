@@ -1,5 +1,5 @@
 # GeneticAlgorithms
-Aim to replicate the genetic algorithms that was used in paper "Using genetic algorithms to find technical trading rules" using R. 
+Aim to replicate the genetic algorithms that was used in paper (Allen&Karjalainen, 1999) using R. 
 
 # Summary of the paper
 
