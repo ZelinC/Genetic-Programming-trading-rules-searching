@@ -8,7 +8,7 @@ Genetic algorithms found a combination of technical trading rules that can earn 
 
 # Structure of algorithms
 --> Main function: (an iteration procedure)
-      1. create an initial generation of 500 random rules
+      1. create an initial generation of 500 random rules \\
       2. masure the fitness of each rule over the training period and rank according to fitness
       3. select the top-ranked rule and calculate its fitness over the selection period. save it as the initial best rule
       4. randomly select two rules, using weights attaching higher probability to more highly ranked rules. Apply the recombination operator to create a new rule, which then replaces an old rule, chosen using weights attaching higher probability to less highly ranked rules. (Repeat this procedure 500 times to create a new generation of rules).
