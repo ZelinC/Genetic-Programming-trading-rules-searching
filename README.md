@@ -25,17 +25,17 @@ Genetic algorithms found a combination of technical trading rules that can earn 
 
 --> Rule generation function  
     The function generates a rule from a group of mathematical operators.
-    (possibly output the code that was easily readable by machines, i.e. in gene codes instead of trees. 
-    mathematical operators includes:
-      * arithmetic operations: +, -, *, /, norm, avg, max, min, lag
-      * Boolean operations: and, or, not, >, <
-      * conditional operations: if-then, if-then-else
-      * numerical constants
-      * Boolean constants: True, False
+    (possibly output the code that was easily readable by machines, i.e. in gene codes instead of trees.   
+    mathematical operators includes:  
+      * arithmetic operations: +, -, *, /, norm, avg, max, min, lag  
+      * Boolean operations: and, or, not, >, <  
+      * conditional operations: if-then, if-then-else  
+      * numerical constants  
+      * Boolean constants: True, False  
 
 --> Fitness function  
-    The function evaluates the excess return for a trading rule over the period from time 0 to time T
-    r = sum_{t=0}^{T-1} z_t r_t + n ln( (1-c)/(1+c) )
+    The function evaluates the excess return for a trading rule over the period from time 0 to time T  
+    r = sum_{t=0}^{T-1} z_t r_t + n ln( (1-c)/(1+c) )  
 
 # Definition of functions and variables  
 
