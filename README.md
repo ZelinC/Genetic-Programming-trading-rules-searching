@@ -6,4 +6,6 @@ Resources:
 4. Results (TBU)
 
 
-Code user guide
+Code user guide (TBU)
+
+Anticipated update time: December (after my graduation)
