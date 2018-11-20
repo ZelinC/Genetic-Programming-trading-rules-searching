@@ -19,6 +19,8 @@ Anticipated update time: December (after my graduation)
 
 * step 1: open 'Double_Evolution_GP.R'
 
+* step 2: install essential R packages - TTR, plyr, zoo, xts, rlist, plotly, ggplot2, rstudioapi
+
 * step 2: configure Genetic Programming hyper-parameters in R dictionary **GP_hyperparam**, the keys are explained in the following.
 ```
 'number of trials': defines number of independent trading rules that the first phase will search
@@ -33,13 +35,13 @@ Anticipated update time: December (after my graduation)
 
 ```
 
-
 * step 3: source the file
 ```
-code
+source('Double_Evolution_GP_backend.R')
+source('Source_preparation.R')
 ```
 
-* step 4: wait for couple of hours
+* step 4: wait for couple of hours or leave the computer for a night depends on the scale of the searching task.
 
 * step 5: collect and visualise the results
 
