@@ -19,11 +19,18 @@ Anticipated update time: December (after my graduation)
 
 * step 1: open 'Double_Evolution_GP.R'
 
-* step 2: configure Genetic Programming hyper-parameters in vector ''
+* step 2: configure Genetic Programming hyper-parameters in R dictionary **GP_hyperparam**, the keys are explained in the following.
 ```
-# defines number of independent trading rules that the first phase will search
-GP_hyperparam['number of trials']                  
-GP_hyperparam['number of population']
+'number of trials': defines number of independent trading rules that the first phase will search
+
+'number of population': defines number of trading rules in each population for evolution purpose
+
+'number of evolution': defines iterations that a population will be evolved
+
+'elite ratio': defines number of top trading rules are guarenteed to survive to the next generation
+
+'mutation rate': defines probability of mutation happens during crossover
+
 ```
 
 
