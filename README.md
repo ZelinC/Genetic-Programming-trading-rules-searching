@@ -8,7 +8,7 @@ This project is also a fulfilment for my degree [Master of Applied Econometrics]
 * Slides for half-way presentation
 * Report for final submission
 * [Implementation instruction](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/wiki/Implementation-Instruction)
-* Genetic programming introduction (TBU)
+* [Genetic programming introduction](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/wiki)
 
 
 Anticipated update time: December (after my graduation)
