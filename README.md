@@ -52,6 +52,8 @@ For a selected trading rule, we can visualise its historical performance in the 
 selected_rule = top5_rules[[5]]
 rule_visualisation(rule, dataframe, GP_hyperparam[['training period']], GP_hyperparam[['validation period']], GP_hyperparam[['test period']])
 ```
+You can obtain the plot as following:
+![alt text](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/blob/master/sample_rule_performance.png)
 
 
 
