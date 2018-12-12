@@ -10,9 +10,9 @@ This project is also a fulfilment for my degree [Master of Applied Econometrics]
 * [Genetic programming introduction](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/wiki)
 
 
-Anticipated update time: December/2018~January/2019 
+### Program information
+* current version: 1.0
+* recent update time: 12/12/2018
 
 
-
-
-# Reference
+### Reference
