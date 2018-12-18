@@ -30,6 +30,8 @@ data_loading <- function(filename) {
   
   log_return = log_return
   
+  return(list(dataframe, log_return))
+  
 }
 
 
