@@ -20,7 +20,7 @@ Click the link and view raw to download. It contains seven files.
 
 ### Program information
 * current version: 1.0
-* recent update time: 12/12/2018
+* recent update time: 18/12/2018
 
 ### Declaration
 This program is for research purpose only. I do not take any responsibility that you made by using this program for real-world trading. Please do not sue me as I do not have money. 
