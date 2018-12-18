@@ -25,7 +25,7 @@ library('plotly')
 library('ggplot2')
 library('rstudioapi')
 library('tidyverse')
-library('timetk')
+#library('timetk')
 
 current_path <- getActiveDocumentContext()$path 
 setwd(dirname(current_path ))
@@ -49,11 +49,11 @@ names(GP_hyperparam) <- c( "data file", "number of trials", "number of populatio
 
 # change the following settings:
 
-GP_hyperparam['data file name']       = 'USDJPY1440.csv'
+GP_hyperparam['data file name']       = 'D:/all_about_code/financial_data/EURUSD1440.csv'
 
 GP_hyperparam['number of trials']     = 5
 
-GP_hyperparam['number of population'] = 50
+GP_hyperparam['number of population'] = 5000
 
 GP_hyperparam['number of evolution']  = 20
 
@@ -67,21 +67,21 @@ GP_hyperparam['transaction cost']     = 0.0001
 
 GP_hyperparam['tree max depth']       = 10
 
-GP_hyperparam['fitness type']         = 'returns'    # or 'correctness', 'sharpe'
+GP_hyperparam['fitness type']         = 'returns'    # or 'correctness', 'sharpe', 'returns'
 
-GP_hyperparam['training period']      = '1990/2014'
+GP_hyperparam['training period']      = '2012/2017'
 
-GP_hyperparam['validation period']    = '2015/2018'
+GP_hyperparam['validation period']    = '2018/2018'
 
 GP_hyperparam['test period']          = NULL
 
 GP_hyperparam['rule file name']       = 'rules_1st_2.rds' # make names into numeric order, e.g. 'rules_1st_1', rules_2st_2', ect.
 
-GP_hyperparam['fitness file name']    = 'rules_fitness_1st_2.rds'
+GP_hyperparam['fitness file name']    = 'rules_fit_1st_2.rds'
 
 GP_hyperparam['log file name']        = 'GP log file'
 
-GP_hyperparam['seed']                 = 2018
+GP_hyperparam['seed']                 = 2
 
 GP_hyperparam['fitness_report_all']   = FALSE
 
@@ -91,7 +91,9 @@ GP_hyperparam['fitness_report_all']   = FALSE
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #----GP runing--------------------------------------------------------
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-data_loading(GP_hyperparam[['data file name']])
+data_loaded = data_loading(GP_hyperparam[['data file name']])
+dataframe   = data_loaded[[1]]
+log_return  = data_loaded[[2]]
 # first stage searching 
 double_evolution_GP_1st_phase(dataframe, GP_hyperparam)
 
