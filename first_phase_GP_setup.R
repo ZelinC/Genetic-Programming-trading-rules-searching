@@ -51,9 +51,9 @@ names(GP_hyperparam) <- c( "data file", "number of trials", "number of populatio
 
 GP_hyperparam['data file name']       = 'D:/all_about_code/financial_data/EURUSD1440.csv'
 
-GP_hyperparam['number of trials']     = 5
+GP_hyperparam['number of trials']     = 1000
 
-GP_hyperparam['number of population'] = 5000
+GP_hyperparam['number of population'] = 50
 
 GP_hyperparam['number of evolution']  = 20
 
