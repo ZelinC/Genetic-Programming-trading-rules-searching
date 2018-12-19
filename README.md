@@ -14,7 +14,7 @@ Click the link and view raw to download. It contains seven files.
 * `Double_Evolution_GP_backend.R` is the backend function support this program, do not open it unless you want to edit the source code. 
 * `train2_fit.rds` and `train2_rules.rds` are my pre-searched trading rules for my research. 
 * `GP_visulisation.R` helps you to visualise the performance of selected trading rules. 
-* `USDJPY1440.csv` is the exchange rate data I used for my thesis, it is downloaded from MetaTrader 4. It is recommended that you download exchange rate data from the platform so it matches the input requirement. It works for different foreign exchange rates and frequencies. 
+* `USDJPY1440.csv` is the exchange rate data I used for my thesis, which is downloaded from MetaTrader 4. It is recommended that you download exchange rate data from this platform so it matches the input requirement. It works for different foreign exchange rates and frequencies. 
  
 
 ### Program information
