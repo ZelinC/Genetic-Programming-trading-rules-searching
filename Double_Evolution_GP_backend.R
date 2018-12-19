@@ -23,12 +23,11 @@ data_loading <- function(filename) {
   
   dataframe = dataframe[c('datetime','High','Low','Close')]
   
-  dataframe <- as.xts(dataframe[, -1], order.by = dataframe$datetime)
+  dataframe = as.xts(dataframe[, -1], order.by = dataframe$datetime)
   #colnames(dataframe) = 'price.close'
   
-  log_return <- diff(log(dataframe$Close), lag=1)
+  log_return = diff(log(dataframe$Close), lag=1)
   
-  log_return = log_return
   
   return(list(dataframe, log_return))
   
