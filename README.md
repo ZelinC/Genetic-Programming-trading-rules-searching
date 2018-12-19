@@ -8,8 +8,8 @@ This project is also a fulfilment for my degree [Master of Applied Econometrics]
 * [Implementation instruction](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/wiki/Implementation-Instruction)
 * [Genetic programming introduction](https://github.com/ZelinC/Trading-rule-searching-Genetic-Programming-two-phase-searching-methodology/wiki)
 
-### Program folder [Genetic-Programming-trading-rules-searching](https://github.com/ZelinC/Genetic-Programming-trading-rules-searching/blob/master/Genetic-Programming-trading-rules-searching.zip):
-Click the link and view raw to download. It contains seven files. 
+### Program 
+It contains seven files. 
 * `first_phase_GP_setp.R` and `second_phase_GP_setup.R` are the two files that you need to run to obtain the trading rules.
 * `Double_Evolution_GP_backend.R` is the backend function support this program, do not open it unless you want to edit the source code. 
 * `train2_fit.rds` and `train2_rules.rds` are my pre-searched trading rules for my research. 
