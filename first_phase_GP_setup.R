@@ -53,7 +53,7 @@ GP_hyperparam['data file name']       = 'D:/all_about_code/financial_data/EURUSD
 
 GP_hyperparam['number of trials']     = 5
 
-GP_hyperparam['number of population'] = 5000
+GP_hyperparam['number of population'] = 30
 
 GP_hyperparam['number of evolution']  = 20
 
